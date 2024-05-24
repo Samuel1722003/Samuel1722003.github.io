@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 15.5%;
+}
+
+.navegador {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navegador a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.navegador a:hover {
+    background-color: #0056b3;
+}
+
+.navegador h1 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.navegador h2 {
+    font-size: 1.2rem;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+.contenido {
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 7px;
+    margin-top: 137px;
+}
+
+.titulo {
+    color:#001d3b;
+    font-size: 2.7rem;
+    text-shadow: 0.5px 0.9px 0.27px #000;
+}
+
+.subtitulo {
+    font-size: 1.6rem;
+    color: rgb(44, 195, 255);
+    text-shadow: 0.9px 0.7px 0.27px #000;
+}
+
+.informacion {
+    text-align: justify;
+}
+
+.imagen1 {
+    margin: auto;
+    max-width: 370px;
+    max-height: 200px;
+    height: auto;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+figure {
+    text-align: center;
+    margin: 20px auto;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+strong{
+    color: #0056b3;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: start;
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    font-size: 1.5rem;
+    color: rgb(252, 254, 255);
+    text-shadow: 0.5px 0.5px 0.5px #000;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+footer a {
+    color: azure;
+}
