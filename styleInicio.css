@@ -56,6 +56,10 @@ header {
     margin-top: 137px;
 }
 
+.nombre {
+    font-size: 29px;
+}
+
 .titulo {
     color:#001d3b;
     font-size: 2.7rem;
@@ -74,8 +78,8 @@ header {
 
 .imagen1 {
     margin: auto;
-    max-width: 370px;
-    max-height: 200px;
+    max-width: 392px;
+    max-height: 250px;
     height: auto;
     border-radius: 7px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -117,4 +121,36 @@ footer p {
 
 footer a {
     color: azure;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        padding: 10px 0px;
+    }
+
+    .navegador h1 {
+        font-size: 1.5rem;
+    }
+
+    .navegador h2 {
+        font-size: 1rem;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .contenido {
+        margin-top: 110px;
+    }
+
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .subtitulo {
+        font-size: 1.3rem;
+    }
+
+    footer p {
+        font-size: 1.2rem;
+    }
 }
