@@ -138,6 +138,11 @@ footer a {
         margin-bottom: 5px;
     }
 
+    .navegador a {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+
     .contenido {
         margin-top: 110px;
     }
