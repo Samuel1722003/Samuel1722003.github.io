@@ -138,7 +138,14 @@ footer a {
         margin-bottom: 5px;
     }
 
+    .navegador {
+        text-align: center;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
     .navegador a {
+        display: inline-block;
         padding: 8px 12px;
         font-size: 0.9rem;
     }
